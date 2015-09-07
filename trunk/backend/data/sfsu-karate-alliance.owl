@@ -10,103 +10,76 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/mikewong899/ontologies/2015/8/karate"
+     xml:base="http://www.semanticweb.org/mikewong899/ontologies/2015/8/sfsu-karate-alliance"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/mikewong899/ontologies/2015/8/karate">
+     ontologyIRI="http://www.semanticweb.org/mikewong899/ontologies/2015/8/sfsu-karate-alliance">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Karate"/>
+        <Class IRI="#SFSU_Karate_Alliance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#back_fist_strike"/>
+        <Class IRI="#character"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#bassai"/>
+        <Class IRI="#deception"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#blocks"/>
+        <Class IRI="#disarms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cross_stance"/>
+        <Class IRI="#etiquette"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#elbow_strike"/>
+        <Class IRI="#fundamentals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#form"/>
+        <Class IRI="#intelligence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#front_kick"/>
+        <Class IRI="#joint_locks"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hammer_fist_strike"/>
+        <Class IRI="#meditation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hand_positions"/>
+        <Class IRI="#mobility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hand_technique"/>
+        <Class IRI="#prioritization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#heian"/>
+        <Class IRI="#projections"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#jion_temple_forms"/>
+        <Class IRI="#rolls"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#kanku"/>
+        <Class IRI="#safe_falls"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#kicking_technique"/>
+        <Class IRI="#self-defense"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#knife_hand_strike"/>
+        <Class IRI="#sparring"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#palm_heel_strike"/>
+        <Class IRI="#throws"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reverse_punch"/>
+        <Class IRI="#traps"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ridge_hand_strike"/>
+        <Class IRI="#trigger_points"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#round_house_kick"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#side_kick"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#spear_hand_strike"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stances"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#straight_punch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#strikes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#technique"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#tekki"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#thrusting_elbow_strike"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#turning_elbow_strike"/>
+        <Class IRI="#tumbling"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#back_cross_stance"/>
@@ -307,276 +280,172 @@
         <AnnotationProperty IRI="#terminology"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#back_fist_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#character"/>
+        <Class IRI="#SFSU_Karate_Alliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#bassai"/>
-        <Class IRI="#form"/>
+        <Class IRI="#deception"/>
+        <Class IRI="#sparring"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#blocks"/>
-        <Class IRI="#hand_technique"/>
+        <Class IRI="#disarms"/>
+        <Class IRI="#sparring"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#cross_stance"/>
-        <Class IRI="#stances"/>
+        <Class IRI="#etiquette"/>
+        <Class IRI="#character"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#elbow_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#fundamentals"/>
+        <Class IRI="#sparring"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#form"/>
-        <Class IRI="#Karate"/>
+        <Class IRI="#intelligence"/>
+        <Class IRI="#sparring"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#front_kick"/>
-        <Class IRI="#kicking_technique"/>
+        <Class IRI="#joint_locks"/>
+        <Class IRI="#self-defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#hammer_fist_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#meditation"/>
+        <Class IRI="#character"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#hand_positions"/>
-        <Class IRI="#hand_technique"/>
+        <Class IRI="#mobility"/>
+        <Class IRI="#self-defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#hand_technique"/>
-        <Class IRI="#technique"/>
+        <Class IRI="#prioritization"/>
+        <Class IRI="#character"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#heian"/>
-        <Class IRI="#form"/>
+        <Class IRI="#projections"/>
+        <Class IRI="#self-defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#jion_temple_forms"/>
-        <Class IRI="#form"/>
+        <Class IRI="#rolls"/>
+        <Class IRI="#mobility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#kanku"/>
-        <Class IRI="#form"/>
+        <Class IRI="#safe_falls"/>
+        <Class IRI="#mobility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#kicking_technique"/>
-        <Class IRI="#technique"/>
+        <Class IRI="#self-defense"/>
+        <Class IRI="#SFSU_Karate_Alliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#knife_hand_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#sparring"/>
+        <Class IRI="#SFSU_Karate_Alliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#palm_heel_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#throws"/>
+        <Class IRI="#self-defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#reverse_punch"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#traps"/>
+        <Class IRI="#sparring"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ridge_hand_strike"/>
-        <Class IRI="#strikes"/>
+        <Class IRI="#trigger_points"/>
+        <Class IRI="#self-defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#round_house_kick"/>
-        <Class IRI="#kicking_technique"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#side_kick"/>
-        <Class IRI="#kicking_technique"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#spear_hand_strike"/>
-        <Class IRI="#strikes"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stances"/>
-        <Class IRI="#technique"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#straight_punch"/>
-        <Class IRI="#strikes"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#strikes"/>
-        <Class IRI="#hand_technique"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#technique"/>
-        <Class IRI="#Karate"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#tekki"/>
-        <Class IRI="#form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#thrusting_elbow_strike"/>
-        <Class IRI="#elbow_strike"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#turning_elbow_strike"/>
-        <Class IRI="#elbow_strike"/>
+        <Class IRI="#tumbling"/>
+        <Class IRI="#mobility"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#cross_stance"/>
-        <NamedIndividual IRI="#back_cross_stance"/>
+        <Class IRI="#safe_falls"/>
+        <NamedIndividual IRI="#back_fall"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#kicking_technique"/>
-        <NamedIndividual IRI="#back_kick"/>
+        <Class IRI="#rolls"/>
+        <NamedIndividual IRI="#back_roll"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#back_stance"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#back_tuck_sault"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#bassai"/>
-        <NamedIndividual IRI="#bassai_dai"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#back_walkover"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#bassai"/>
-        <NamedIndividual IRI="#bassai_sho"/>
+        <Class IRI="#safe_falls"/>
+        <NamedIndividual IRI="#break_fall"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#cat_stance"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#cartwheel"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#crane_stance"/>
+        <Class IRI="#meditation"/>
+        <NamedIndividual IRI="#diamond_sutra"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#hand_positions"/>
-        <NamedIndividual IRI="#fist"/>
+        <Class IRI="#rolls"/>
+        <NamedIndividual IRI="#forward_roll"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#cross_stance"/>
-        <NamedIndividual IRI="#front_cross_stance"/>
+        <Class IRI="#safe_falls"/>
+        <NamedIndividual IRI="#front_fall"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#front_kick"/>
-        <NamedIndividual IRI="#front_snap_kick"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#front_tuck_sault"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#front_stance"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#front_walkover"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#front_kick"/>
-        <NamedIndividual IRI="#front_thrust_kick"/>
+        <Class IRI="#meditation"/>
+        <NamedIndividual IRI="#heart_sutra"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#heian"/>
-        <NamedIndividual IRI="#heian_godan"/>
+        <Class IRI="#prioritization"/>
+        <NamedIndividual IRI="#interpersonal_engagement"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#heian"/>
-        <NamedIndividual IRI="#heian_nidan"/>
+        <Class IRI="#meditation"/>
+        <NamedIndividual IRI="#mudra"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#heian"/>
-        <NamedIndividual IRI="#heian_sandan"/>
+        <Class IRI="#prioritization"/>
+        <NamedIndividual IRI="#personal_commitment"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#heian"/>
-        <NamedIndividual IRI="#heian_shodan"/>
+        <Class IRI="#prioritization"/>
+        <NamedIndividual IRI="#personal_motivation"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#heian"/>
-        <NamedIndividual IRI="#heian_yondan"/>
+        <Class IRI="#prioritization"/>
+        <NamedIndividual IRI="#personal_productivity"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#blocks"/>
-        <NamedIndividual IRI="#high_block"/>
+        <Class IRI="#tumbling"/>
+        <NamedIndividual IRI="#round_off"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#horse_stance"/>
+        <Class IRI="#etiquette"/>
+        <NamedIndividual IRI="#school_rules"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#blocks"/>
-        <NamedIndividual IRI="#inside_block"/>
+        <Class IRI="#meditation"/>
+        <NamedIndividual IRI="#seated_meditation"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#jion_temple_forms"/>
-        <NamedIndividual IRI="#jion"/>
+        <Class IRI="#rolls"/>
+        <NamedIndividual IRI="#shoulder_roll"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#jion_temple_forms"/>
-        <NamedIndividual IRI="#jitte"/>
+        <Class IRI="#safe_falls"/>
+        <NamedIndividual IRI="#side_fall"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#kanku"/>
-        <NamedIndividual IRI="#kanku_dai"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#kanku"/>
-        <NamedIndividual IRI="#kanku_sho"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#hand_positions"/>
-        <NamedIndividual IRI="#knife_hand"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#blocks"/>
-        <NamedIndividual IRI="#knife_hand_block"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#blocks"/>
-        <NamedIndividual IRI="#low_block"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#natural_stance"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#blocks"/>
-        <NamedIndividual IRI="#outside_block"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#hand_positions"/>
-        <NamedIndividual IRI="#palm_heel"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#hand_technique"/>
-        <NamedIndividual IRI="#retracting_hand"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#hand_positions"/>
-        <NamedIndividual IRI="#ridge_hand"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#kicking_technique"/>
-        <NamedIndividual IRI="#round_house_kick"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#stances"/>
-        <NamedIndividual IRI="#sanchin_stance"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#side_kick"/>
-        <NamedIndividual IRI="#side_snap_kick"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#side_kick"/>
-        <NamedIndividual IRI="#side_thrust_kick"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#hand_positions"/>
-        <NamedIndividual IRI="#spear_hand"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#tekki"/>
-        <NamedIndividual IRI="#tekki_nidan"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#tekki"/>
-        <NamedIndividual IRI="#tekki_sandan"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#tekki"/>
-        <NamedIndividual IRI="#tekki_shodan"/>
+        <Class IRI="#meditation"/>
+        <NamedIndividual IRI="#skhanda"/>
     </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#description"/>
@@ -598,6 +467,11 @@ Back foot 90°. Back leg bent to support 60% weight distribution.</Literal>
         <AnnotationProperty IRI="#terminology"/>
         <IRI>#school_rules</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dojo kun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sparring</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">These sparring metrics follow Master Wong&apos;s Strategy Guide, which is designed for Taekwondo competitive sparring, not traditional Karate.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
