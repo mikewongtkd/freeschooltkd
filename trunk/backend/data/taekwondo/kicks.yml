@@ -1,0 +1,28 @@
+---
+id: kick
+desc: Attacking technique using the leg muscles to strike powerfully with the foot
+
+---
+id: round-house-kick
+aka: RK
+is-a: kick
+desc: A circular kicking motion
+uses:
+    - adductor
+    - quadricep
+    - hamstring
+    - calf
+strikes-with: instep
+details:
+    - Raise the knee straight up
+    - Whip the lower leg and strike with the instep:
+        - Pivot the supporting foot 45-90° 
+        - Turn the kicking shin parallel to the floor
+        - Flick with the lower leg and strike
+    - Rechamber the leg
+    - Land the foot
+
+---
+id: back-kick
+aka: BK
+is-a: kick

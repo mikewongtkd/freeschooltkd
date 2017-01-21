@@ -1,0 +1,29 @@
+---
+id: muscle
+desc: Skeletal muscles contract to perform movement
+
+---
+id: lower-body-muscle
+aka: leg
+is-a: muscle
+
+---
+id: adductor
+is-a: lower-body-muscle
+
+---
+id: quadricep
+is-a: lower-body-muscle
+
+---
+id: hamstring
+is-a: lower-body-muscle
+
+---
+id: calf
+is-a: lower-body-muscle
+
+---
+id: core-muscle
+is-a: muscle
+

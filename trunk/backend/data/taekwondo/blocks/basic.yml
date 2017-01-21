@@ -1,0 +1,27 @@
+---
+id: block
+description: A defensive motion
+
+---
+id: down-block
+aka: ahre makki
+is-a: block
+desc: A downward blocking motion
+active-hand:
+    starts: near opposite shoulder, palm up
+    finishes: two-fist distance from thigh
+supporting-hand:
+    starts: center line, palm down
+    finishes: hip, palm up
+
+---
+id: inside-block
+is-a: block
+
+---
+id: outside-block
+is-a: block
+
+---
+id: high-block
+is-a: block
