@@ -25,28 +25,18 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><?= $config[ 'company' ] ?></a>
+					<a class="navbar-brand disabled"><?php $logo = doc_path( 'images', $config[ 'logo' ]); if( file_exists( $logo )) { echo '<img src="images/' . $config[ 'logo' ] . '">'; } else { echo $config[ 'company' ]; } ?></a>
 				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<form class="navbar-form navbar-right">
-						<button type="submit" class="btn btn-success">Instructor Sign in</button>
-					</form>
-				</div><!--/.navbar-collapse -->
 			</div>
 		</nav>
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron">
+		<div class="jumbotron" style="background-image: url( '<?= base_url( 'images', $config[ 'banner' ] ) ?>' )">
 			<div class="container">
 				<h1>Welcome</h1>
-				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-				<p><a class="btn btn-primary btn-lg" href="student/login.php" role="button">Student Sign In &raquo;</a></p>
+				<p>Tiger Martial Arts is proud to provide quality martial arts instruction to the Bay Area.</p>
+				<p><a class="btn btn-primary btn-lg" href="student/login.php" role="button">Student Sign In &raquo;</a>
+				<a class="btn btn-success btn-lg" href="instructor/login.php" role="button">Instructor Sign In &raquo;</a></p>
 			</div>
 		</div>
 

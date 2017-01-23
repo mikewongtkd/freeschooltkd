@@ -12,9 +12,31 @@
     margin-left: -40px; }
 
 #student-sign-in {
-  margin-top: 20px; }
-  #student-sign-in #info a.confirm {
-    bottom: 0; }
+  margin-top: 20px;
+  display: table; }
+  #student-sign-in [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top; }
+  #student-sign-in #info {
+    position: absolute;
+    height: 100%;
+    width: calc( 100% - 80px ); }
+    #student-sign-in #info a.confirm {
+      position: absolute;
+      width: 70%;
+      left: 25%;
+      bottom: 0; }
+    #student-sign-in #info a.cancel {
+      position: absolute;
+      width: 20%;
+      left: 0;
+      bottom: 0; }
+    #student-sign-in #info #autocancel {
+      position: absolute;
+      bottom: 60px;
+      width: 100%;
+      text-align: center; }
   #student-sign-in #portrait {
     overflow: hidden; }
     #student-sign-in #portrait img {
