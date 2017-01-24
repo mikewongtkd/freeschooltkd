@@ -17,10 +17,14 @@ nav a.navbar-brand img {
   background-size: auto 100%;
   background-repeat: no-repeat; }
   .jumbotron h1 {
-    color: white; }
+    color: white;
+    text-shadow: 2px 2px 2px black; }
   .jumbotron p {
     width: 40%;
-    color: gold; }
+    color: gold;
+    text-shadow: 2px 2px 2px black; }
+  .jumbotron a {
+    text-shadow: none; }
 
 footer {
   position: absolute;

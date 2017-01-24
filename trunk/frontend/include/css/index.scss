@@ -18,12 +18,18 @@ nav {
 	background-color: black;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
+
 	h1 {
 		color: white;
+		text-shadow: 2px 2px 2px black;
 	}
 	p {
 		width: 40%;
 		color: gold;
+		text-shadow: 2px 2px 2px black;
+	}
+	a {
+		text-shadow: none;
 	}
 }
 

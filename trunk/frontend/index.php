@@ -16,7 +16,7 @@
 	<title><?= $config[ 'company' ] ?>&mdash;<?= $config[ 'brief' ] ?></title>
 
 		<link href="include/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="include/css/jumbotron.css" rel="stylesheet">
+		<link href="include/css/index.css" rel="stylesheet">
 
 	</head>
 
