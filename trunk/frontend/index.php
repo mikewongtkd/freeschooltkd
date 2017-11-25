@@ -34,7 +34,7 @@
 		<div class="jumbotron" style="background-image: url( '<?= base_url( 'images', $config[ 'banner' ] ) ?>' )">
 			<div class="container">
 				<h1>Welcome</h1>
-				<p>Tiger Martial Arts is proud to provide quality martial arts instruction to the Bay Area.</p>
+				<p>This studio is proud to provide quality martial arts instruction to the Bay Area.</p>
 				<p><a class="btn btn-primary btn-lg" href="student/login.php" role="button">Student Sign In &raquo;</a>
 				<a class="btn btn-success btn-lg" href="instructor/login.php" role="button">Instructor Sign In &raquo;</a></p>
 			</div>

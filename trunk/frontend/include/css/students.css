@@ -1,3 +1,6 @@
+body {
+  padding-top: 100px; }
+
 #students {
   position: relative; }
   #students .student {

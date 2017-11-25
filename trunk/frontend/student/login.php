@@ -61,6 +61,9 @@
 		<script src="../include/alertify/js/alertify.min.js"></script>
 		<script src="../include/string/string.js"></script>
 		<script>
+			$( function() {
+				$( '.navbar-header img' ).animate({ width: '100px' });
+			});
 			S.extendPrototype();
 			var students = <?= json_encode( $students ) ?>;
 			$( '#student-sign-in' ).hide();
